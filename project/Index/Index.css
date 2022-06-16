@@ -1,0 +1,64 @@
+
+body {
+    background-image: url("/Images/background.png");
+    background-size: 100%;
+    
+}
+
+.submit {
+    height: 30px;
+    width: 300px;
+    margin-top: 90px;
+               
+}
+
+.clear {
+    height: 30px;
+    width: 300px;
+    margin-top: 2px;
+                  
+}
+
+
+
+.blank {
+    color: white;
+    opacity: 0;
+}
+
+.input {
+    margin-top: 40px;
+    font-size: x-large;
+    width: 440px;
+}
+
+.everithing {
+    position: relative;
+}
+
+em {
+    width: 700px;
+    position: absolute;
+    z-index: 0;
+    opacity: 80%;  
+    transform: scaleX(-1);
+    transform: rotate(-5deg);
+   
+       display: block;
+    float: none;
+    clear: both;
+}
+
+.instructions{
+    margin-top: 200px;
+    z-index: 0;
+    position: relative;
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 10px;
+    min-width: 10px;
+
+}
+
